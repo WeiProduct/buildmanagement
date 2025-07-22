@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见问题 - AI建管系统</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>AI建管系统</h1>
+                <span class="subtitle">智能建筑管理平台</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="faq.html" class="active">常见问题</a></li>
+                <li><a href="privacy.html">隐私政策</a></li>
+                <li><a href="terms.html">服务条款</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-page">
+        <div class="container">
+            <h1>常见问题</h1>
+            <p>这里整理了用户最常遇到的问题和解答。如果您的问题未在此列出，请<a href="index.html#support">联系我们</a>。</p>
+
+            <h2>账户相关</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>如何获取登录账号？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>登录账号由您所在的企业或项目管理方统一分配。请联系您的主管或项目经理获取账号信息。新员工入职时，人事部门会创建相应的账号。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>忘记密码怎么办？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>请联系您的系统管理员重置密码。出于安全考虑，密码重置需要经过身份验证。管理员会为您生成临时密码，首次登录后请立即修改。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>可以在多个设备上登录吗？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>是的，您可以在手机和平板电脑上同时登录。但出于安全考虑，同一账号最多支持3个设备同时在线。超出限制时，最早登录的设备会被自动下线。</p>
+                </div>
+            </div>
+
+            <h2>功能使用</h2>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>考勤打卡需要开启定位吗？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>是的，考勤打卡需要开启定位权限。这是为了确保您在工地现场进行打卡。定位信息仅在打卡时收集，不会持续追踪您的位置。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>如何申请物料？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>工人可以通过"物料"模块提交申请：<br>
+                    1. 选择需要的物料类型和数量<br>
+                    2. 填写用途说明<br>
+                    3. 选择紧急程度<br>
+                    4. 提交后等待主管审批<br>
+                    您可以在"我的申请"中查看审批进度。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>任务完成后如何上报？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>在"任务"模块中找到对应任务，点击"完成上报"，可以：<br>
+                    - 上传现场照片（建议多角度拍摄）<br>
+                    - 填写完成说明<br>
+                    - 记录遇到的问题<br>
+                    提交后，质检员会进行验收。</p>
+                </div>
+            </div>
+
+            <h2>技术问题</h2>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>应用支持哪些设备？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>AI建管系统支持：<br>
+                    - iOS设备：iPhone 6s及以上，iOS 12.0+<br>
+                    - iPad：所有iPad型号，iPadOS 13.0+<br>
+                    - 建议使用最新版本的操作系统以获得最佳体验。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>应用无法正常加载怎么办？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>请尝试以下步骤：<br>
+                    1. 检查网络连接是否正常<br>
+                    2. 完全关闭应用后重新打开<br>
+                    3. 清除应用缓存（设置-通用-iPhone存储空间）<br>
+                    4. 卸载并重新安装应用<br>
+                    5. 如问题持续，请联系技术支持。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>为什么收不到通知？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>请检查：<br>
+                    1. 系统设置中是否允许应用发送通知<br>
+                    2. 应用内的通知设置是否开启<br>
+                    3. 手机是否处于勿扰模式<br>
+                    4. 网络连接是否正常<br>
+                    重新登录应用可能解决部分通知问题。</p>
+                </div>
+            </div>
+
+            <h2>安全与隐私</h2>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>我的个人信息安全吗？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>我们高度重视信息安全：<br>
+                    - 所有数据传输都经过加密<br>
+                    - 服务器定期进行安全审计<br>
+                    - 严格的访问权限控制<br>
+                    - 符合相关法律法规要求<br>
+                    详情请查看我们的<a href="privacy.html">隐私政策</a>。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>考勤定位信息会被如何使用？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>定位信息仅用于：<br>
+                    - 验证打卡时是否在工地范围内<br>
+                    - 统计分析（匿名化处理）<br>
+                    我们不会：<br>
+                    - 持续追踪您的位置<br>
+                    - 将位置信息用于其他目的<br>
+                    - 向第三方提供您的定位数据</p>
+                </div>
+            </div>
+
+            <h2>其他问题</h2>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>如何反馈问题或建议？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>我们欢迎您的反馈：<br>
+                    - 应用内：我的-意见反馈<br>
+                    - 邮箱：feedback@aiconstructionmanagement.com<br>
+                    - GitHub：<a href="https://github.com/WeiProduct/buildmanagement/issues" target="_blank">提交Issue</a><br>
+                    您的建议将帮助我们不断改进产品。</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <span>应用是否收费？</span>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <p>AI建管系统采用企业订阅模式：<br>
+                    - 个人用户无需付费<br>
+                    - 费用由企业或项目方承担<br>
+                    - 不同规模企业有不同的定价方案<br>
+                    - 提供免费试用期<br>
+                    如需了解企业定价，请联系我们的销售团队。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI建管系统. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFAQ(element) {
+            const answer = element.nextElementSibling;
+            const icon = element.querySelector('.faq-icon');
+            
+            // Toggle active class
+            answer.classList.toggle('active');
+            icon.classList.toggle('active');
+            
+            // Close other open FAQs
+            const allQuestions = document.querySelectorAll('.faq-question');
+            allQuestions.forEach(q => {
+                if (q !== element) {
+                    q.nextElementSibling.classList.remove('active');
+                    q.querySelector('.faq-icon').classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
