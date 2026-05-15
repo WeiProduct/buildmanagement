@@ -26,5 +26,5 @@
 
 ## 联系方式
 
-- 邮箱: support@aiconstructionmanagement.com
-- 电话: 138-0013-8000
+- 邮箱: 1597498880weiproduct@gmail.com
+- 反馈: GitHub Issues
